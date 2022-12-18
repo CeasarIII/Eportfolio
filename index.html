@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9da3880fa6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="new/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#portfolio">Experiments</a></li>
+                        <li><a href="#project">Project Documentation</a></li>
+                        <li><a href="#certificates">Seminar and Training</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Computer Engineering</p>
+                    <h1>Hi, I'm <span>Ceasar</span><br>Eduardo Villena III  </h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------------about----------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="new/cropped.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am Ceasar Eduardo Castro Villena III, a freshman under the program of Bachelor of Science in Computer Engineering,
+                            born in 25th of May 2002, 20 years of age, And currently residing in Mandaluyong City. I've previously enrolled as a student under 
+                            the program of Bachelor in Secondary Education Major in English, but I knew early on that teaching isn't my forte, I've liked the tinkering and 
+                            technical aspect of Engineering, being able to solve complex problems and doing problem solving for a living.
+                        </p>
+                        <div class="tab-titles">
+                            
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Jose Rizal University, College</span><br>2022-Current<br>Bachelor in Science of Computer Engineering</li>
+                                <li><span>Jose Rizal University, Senior High</span><br>2018-2020<br>STEM(Science, Technology, Engineering and Mathematics)</li>
+                                <li><span>Mataas na Paaralang Neptali A. Gonzales, Junior High</span><br>2014-2018</li>
+                                <li><span>Hulo Elementary School, Elementary</span><br>2008-2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Experiments</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="new/exp1.png">
+                <div class="layer">
+                    <h3>Experiment 1</h3>
+                    <p>Sequential Control Structure</p>
+                    <a href="experiments/1.odg"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp2.png">
+                <div class="layer">
+                    <h3>Experiment 2</h3>
+                    <p>Conditional Control Structure</p>
+                    <a href="experiments/2.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp3.png">
+                <div class="layer">
+                    <h3>Experiment 4</h3>
+                    <p>C++ Input/Output Statements</p>
+                    <a href="experiments/3.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp4.png">
+                <div class="layer">
+                    <h3>Experiment 5</h3>
+                    <p>C++ Conditional Statements</p>
+                    <a href="experiments/4.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp5.png">
+                <div class="layer">
+                    <h3>Experiment 6</h3>
+                    <p>C++ Looping Statements</p>
+                    <a href="experiments/5.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp6.png">
+                <div class="layer">
+                    <h3>Experiment 7</h3>
+                    <p>C++ FunctionArrayString</p>
+                    <a href="experiments/6.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>    
+</div>
+
+<!-------------------activities---------->
+<div id="activities">
+    <div class="container">
+        <h1 class="sub-title">Activities</h1>
+        <div class="activity-list">
+
+                <div class="activity">
+                    <img src="new/act1.png">
+                    <div class="layer">
+                        <h3>Activity 1</h3>
+                        <p>Conversion of Number System</p>
+                        <a href="activities/1.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                
+                <div class="activity">
+                    <img src="new/act2.png">
+                    <div class="layer">
+                        <h3>Activity 2</h3>
+                        <p>Repetition</p>
+                        <a href="activities/2.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                
+                <div class="activity">
+                    <img src="new/act3.png">
+                    <div class="layer">
+                        <h3>Activity 3</h3>
+                        <p>Intro to C++</p>
+                        <a href="activities/3.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+</div>
+<!------------------Project------------------>
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">Project Documentation</h1>
+        <div class="documentation">
+
+            <img src="new/documentation.png">
+                    <div class="layer">
+                        <h3>Project Documentation</h3>
+                        <p>RESONATE Games - Bussin' Bananas </p>
+                        <a href="RESONATE Games - Bussin' Bananas - Project Documentation (Group 2 - 102G).pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!--------------seminars/trainings------------------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Seminars and Training</h1>
+        <div class="certificate-list">
+
+            <div class="certificate">
+                <img src="new/Ceasar Eduardo III, C, Villena.png">
+                    <div class="layer">
+                        <h3>Certificate Of Appreciation </h3>
+                        <p>Managing change and tension for college student </p>
+                        <a href="new/Ceasar Eduardo III, C, Villena.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/Ceasar Eduardo III C. Villena.png">
+                    <div class="layer">
+                        <h3>Certificate Of Appreciation </h3>
+                        <p>Speaking to audience </p>
+                        <a href="new/Ceasar Eduardo III C. Villena.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/121_page-0001.jpg">
+                    <div class="layer">
+                        <h3>Certificate Of Appreciation </h3>
+                        <p>Onsite General Assembly </p>
+                        <a href="new/121_page-0001.jpg"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------------contact me---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-1"></div>
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>ceasareduardo.villenaiii@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>09052373387</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-----------js----------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+
+
+
+
+    </body>
+</html>
